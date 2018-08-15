@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <br/>
+  <div class="container-fluid">
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border"> 
+        Google Map Analytics 
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h1>Something About Data</h1>
+    <h2>
+      you have travelled total @ViewData["totalDistance"] miles since @ViewData["first_date"]  that is an average of @ViewData["average_miles"] miles a day
+    </h2>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border">
+        Driving Analytics
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>You have driven for @ViewData["drove"] miles <br/> you have entered in a car for @ViewData["exited_vehicle"] times </h2>
+   
+  </section>
+
+  <div class="pimg3">
+    <div class="ptext">
+      <span class="border">
+        walking Analytics
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>You have walked for @ViewData["walked"] miles </h2>
+    
+  </section>
+ <div class="pimg4">
+    <div class="ptext">
+      <span class="border">
+        Running Analytics
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>You have ran for @ViewData["ran"] miles </h2>
+    
+  </section>
+   <div class="pimg5">
+    <div class="ptext">
+      <span class="border">
+        Biking Analytics
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>You have biked for @ViewData["biked"] miles </h2>
+    
+  </section>
+
+
+</div>
+
+
+</body>
+</html>

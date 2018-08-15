@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Full Slider - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+  </head>
+
+
+ 
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('images/data2.jpeg')">
+            <div class="carousel-caption d-none d-md-block ptext border">
+              <button type="button" class="btn btn-primary know">Know It</button>
+
+              <p>An average internet user generate 2GB data/day get some meaning out of it</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/data3.jpeg')">
+            <div class="carousel-caption d-none d-md-block ptext border">
+              <button type="button" class="btn btn-primary know">Know It</button>
+              <p>Google is no.1 website and most of its revenue is the result of data collected from you</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/data4.jpeg')">
+            <div class="carousel-caption d-none d-md-block ptext border">
+              <button type="button" class="btn btn-primary know">Know It</button>
+              <p>Maps can tell more about you than you can imagine click on above button to get started</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+
+    
+<script>
+
+(function() {
+  var runMyCode = function($) {
+    // jquery-dependent code here
+    $(".know").click(function(){window.location.href="http://localhost:5000/home/upload";
+})
+  };
+
+  var timer = function() {
+    if (window.jQuery) {
+      runMyCode(window.jQuery);
+    } else {
+      window.setTimeout(timer, 100);
+    }
+  };
+  timer();
+})();
+
+</script>
+  
+
+  
+
+</html>

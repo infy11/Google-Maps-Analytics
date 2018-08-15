@@ -1,0 +1,12 @@
+/home/varnit/projects/dot-authentication/bin/Debug/netcoreapp2.0/app.db
+/home/varnit/projects/dot-authentication/bin/Debug/netcoreapp2.0/dot-authentication.deps.json
+/home/varnit/projects/dot-authentication/bin/Debug/netcoreapp2.0/dot-authentication.runtimeconfig.json
+/home/varnit/projects/dot-authentication/bin/Debug/netcoreapp2.0/dot-authentication.runtimeconfig.dev.json
+/home/varnit/projects/dot-authentication/bin/Debug/netcoreapp2.0/dot-authentication.dll
+/home/varnit/projects/dot-authentication/bin/Debug/netcoreapp2.0/dot-authentication.pdb
+/home/varnit/projects/dot-authentication/obj/Debug/netcoreapp2.0/dot-authentication.csproj.CoreCompileInputs.cache
+/home/varnit/projects/dot-authentication/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/home/varnit/projects/dot-authentication/obj/Debug/netcoreapp2.0/dot-authentication.AssemblyInfoInputs.cache
+/home/varnit/projects/dot-authentication/obj/Debug/netcoreapp2.0/dot-authentication.AssemblyInfo.cs
+/home/varnit/projects/dot-authentication/obj/Debug/netcoreapp2.0/dot-authentication.dll
+/home/varnit/projects/dot-authentication/obj/Debug/netcoreapp2.0/dot-authentication.pdb
