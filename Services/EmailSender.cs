@@ -12,8 +12,8 @@ namespace dot_authentication.Services
     public class EmailSender : IEmailSender
     {
         public Task SendEmailAsync(string email, string subject, string message)
-        {//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
-             return Execute("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", subject, message, email);
+        {//insert your sendgrid token
+             return Execute("sendgrid token", subject, message, email);
         }
          public Task Execute(string apiKey, string subject, string message, string email)
         {
